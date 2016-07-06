@@ -33,12 +33,12 @@ value.
 * For rectangles, "x1,y1,x2,y2"
 * For polygons, "x1,y1,x2,y2,x3,y3,..."
 
-Seatmap properties also have an optional `styles` attribute. This attribute has
-a child attribute of `"s-tag"` which list the styles of the seat tag. The JSON
+There is an optional `styles` property on the root level. This property has
+a list of named attributes referenced by the `s` attribute in a `seats` property. The JSON
 looks something like this:
 
     "styles": {
-      "s-tag": {
+      "34": {
         "stroke": "#RRGGBB",
         "width": 1,
         "fill": "#RRGGBB",
@@ -48,7 +48,7 @@ looks something like this:
       }
     }
 
-The `s-tag` attributes are defined as:
+The `34` attribute are defined as:
 
 | Req | Attribute | Value       | Notes |
 |:---:| --------- | ----------- | ----- |
@@ -58,3 +58,4 @@ The `s-tag` attributes are defined as:
 |     | na        | not available colour as RGB #RRGGBB | |
 |     | opacity   | 0.5 half-transparent to background | | |
 
+When a seat property contains an attribute `s` whose value is a property of the `styles` object, the styles specified should be applied to the seat object.
