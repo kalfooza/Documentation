@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,300);
+
+body, .book-body {
+background-color: #EBEFF2;
+}
+
+.book-summary {
+color: #fff;
+background-color: #48484B;
+}
+
+.book-summary ul.summary li a, .book-summary ul.summary li span{
+color: #fff;
+}
+
+.page-inner {
+max-width: 850px;
+}
+
+.markdown-section {
+background-color: #fff;
+padding: 20px 30px 30px;
+border-radius: 5px;
+border: 1px solid #D3E0E7;
+}
+
+nav[role="navigation"]{
+padding-left: 5px
+}
+
+#book-search-input{
+padding-left: 10px;
+}
+
+.book-summary ul.summary li a{
+text-transform: uppercase;
+margin-top: 10px;
+font-size: 14px;
+font-weight: 600;
+}
+
+.book-summary ul.summary li ul{
+padding-left: 0;
+}
+
+.book-summary ul.summary li ul a{
+text-transform: none;
+margin-top: 0;
+font-weight: 300;
+font-size: 18px
+}
+
+.book-summary ul.summary li ul li ul{
+padding-left: 20px;
+}
+
+
+.book-summary ul.summary li ul li ul a{
+font-size: 14px;
+}
+
+.book.font-family-0, .book-header {
+font-family: 'Open Sans', sans-serif;
+}
+
+.markdown-section h1, .markdown-section h2{
+font-weight: 300;
+color: #000000;
+}
+
+.markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6 {
+font-weight: 600;
+color: #000000;
+}
+
+.markdown-section h1{
+font-size: 3em;
+margin: 40px 0 30px;
+line-height: 1.4em;
+}
+
+.markdown-section h2{
+font-size: 2.2em;
+margin: 30px 0 20px;
+line-height: 1.3em;
+}
+
+.markdown-section h3{
+font-size: 1.5em;
+margin: 20px 0 15px;
+line-height: 1.2em;
+}
+
+.markdown-section h4, .markdown-section h5, .markdown-section h6{
+font-size: 1.25em;
+margin: 20px 0 3px;
+line-height: 1.2em;
+}
+
+.book-header h1 {
+opacity: 1;
+background-image: url(http://dev.makeitsocial.com/img/mis-logo.png);
+background-repeat: no-repeat;
+width: 140px;
+height: 53px;
+background-position-y: 12px;
+background-size: 100%;
+display: block;
+
+margin: 0 auto;
+
+padding: 0;
+}
+
+.book-header h1 i{display: none;}
+.book-header h1 a{display: none;}
+
+.font-settings{
+display: none;
+}
